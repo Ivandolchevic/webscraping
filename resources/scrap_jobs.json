@@ -1,0 +1,145 @@
+[
+    {
+        "name": "Go to url",
+        "actions": [
+            {
+                "name": "navigate",
+                "method": "byurl",
+                "criteria": "https://copainsdavant.linternaute.com",                         
+                "result": "element"
+            },
+            {
+                "name": "wait",
+                "method": "byid",
+                "criteria": "txtMail",                        
+                "result": "element"
+            }
+        ]
+    },
+    {
+        "name": "Sign in",
+        "actions": [
+            {
+                "name": "fill",
+                "method": "byid",
+                "criteria": "txtMail",
+                "input":"hervedupont2017@laposte.net",
+                "result": "element"
+            },
+            {
+                "name": "fill",
+                "method": "byid",
+                "criteria": "pwdPassAuth",
+                "input":"Generic@0",
+                "result": "element"
+            },
+            {
+                "name": "submit",
+                "method": "byid",
+                "criteria": "pwdPassAuth",        
+                "input":"jTrackSearchHeader",
+                "result": "element"
+            },
+            {
+                "name": "wait",
+                "method": "byid",
+                "criteria": "jTrackSearchHeader",                        
+                "result": "element"
+            }
+        ]
+    },
+    {
+        "name": "Go to the search page",
+        "actions": [
+            {
+                "name": "find",
+                "method": "byid",
+                "criteria": "jTrackSearchHeader",
+                "result": "element"
+            },            
+            {
+                "name": "click",
+                "method": "bytagname",
+                "criteria": "a",
+                "result": "element",
+                "root":"element"
+            },
+            {
+                "name": "wait",
+                "method": "byid",
+                "criteria": "txtVille",                        
+                "result": "element"
+            }
+        ]
+    },
+    {
+        "name": "Search",
+        "actions": [            
+            {
+                "name": "fill",
+                "method": "byid",
+                "criteria": "txtPrenom",
+                "input":":VAR_CONTEXT_0",
+                "result": "element"
+            },
+            {
+                "name": "fill",
+                "method": "byid",
+                "criteria": "txtNom",        
+                "input":":VAR_CONTEXT_1",
+                "result": "element"
+            },
+            {
+                "name": "submit",
+                "method": "byid",
+                "criteria": "txtNom",        
+                "result": "element"
+            },
+            {
+                "name": "wait",
+                "method": "byclassname",
+                "criteria": "app_list--result__search",                        
+                "result": "element"
+            }
+        ]
+    },
+    {
+        "name": "Collect profile urls",
+        "actions": [
+            {
+                "name": "find",
+                "method": "byclassname",
+                "criteria": "app_list--result__search",
+                "result": "element"
+            },
+            {                
+                "name": "find",
+                "method": "bytagname",
+                "criteria": "li",
+                "result": "elements",
+                "root":"element"
+            },
+            {
+                "name": "findforeach",
+                "method": "bytagname",
+                "criteria": "h3",
+                "result": "elements",
+                "root":"elements"
+            },
+            {
+                "name": "findforeach",
+                "method": "bytagname",
+                "criteria": "a",
+                "result": "elements",
+                "root":"elements"
+            },
+            {
+                "name": "getattributeforeach",
+                "method": "byname",
+                "criteria": "href",
+                "result": "values",
+                "root":"elements"
+            }
+        ]
+    }
+]

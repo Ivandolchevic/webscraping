@@ -1,0 +1,107 @@
+[
+    {
+        "value": "51.15.4.132:3128",
+        "type": "https",
+        "success": 0,
+        "fails": 0,
+        "lastsuccess": 1507993410.6814237
+    },
+    {
+        "value": "173.255.143.184:80",
+        "type": "https",
+        "success": 0,
+        "fails": 0,
+        "lastsuccess": 1508310011.6831856
+    },
+    {
+        "value": "75.66.83.12:80",
+        "type": "https",
+        "success": 0,
+        "fails": 0,
+        "lastsuccess": 1508309989.4861276
+    },
+    {
+        "value": "107.170.237.191:80",
+        "type": "https",
+        "success": 0,
+        "fails": 0,
+        "lastsuccess": 0
+    },
+    {
+        "value": "118.144.171.253:3128",
+        "type": "https",
+        "success": 0,
+        "fails": 0,
+        "lastsuccess": 0
+    },
+    {
+        "value": "80.17.38.39:3128",
+        "type": "https",
+        "success": 0,
+        "fails": 1,
+        "lastsuccess": 0
+    },
+    {
+        "value": "110.229.153.254:3128",
+        "type": "https",
+        "success": 0,
+        "fails": 0,
+        "lastsuccess": 0
+    },
+    {
+        "value": "202.159.36.70:80",
+        "type": "https",
+        "success": 0,
+        "fails": 0,
+        "lastsuccess": 0
+    },
+    {
+        "value": "128.199.234.64:8080",
+        "type": "https",
+        "success": 0,
+        "fails": 0,
+        "lastsuccess": 0
+    },
+    {
+        "value": "128.199.234.64:80",
+        "type": "https",
+        "success": 0,
+        "fails": 0,
+        "lastsuccess": 0
+    },
+    {
+        "value": "36.67.147.60:80",
+        "type": "https",
+        "success": 0,
+        "fails": 0,
+        "lastsuccess": 0
+    },
+    {
+        "value": "64.150.191.81:3128",
+        "type": "https",
+        "success": 1,
+        "fails": 1,
+        "lastsuccess": 1508394703.4502678
+    },
+    {
+        "value": "159.82.166.133:8080",
+        "type": "https",
+        "success": 1,
+        "fails": 1,
+        "lastsuccess": 1508394856.3014321
+    },
+    {
+        "value": "61.5.207.102:80",
+        "type": "https",
+        "success": 0,
+        "fails": 0,
+        "lastsuccess": 0
+    },
+    {
+        "value": "118.107.181.194:80",
+        "type": "https",
+        "success": 0,
+        "fails": 1,
+        "lastsuccess": 0
+    }
+]
